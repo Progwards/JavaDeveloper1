@@ -1,6 +1,6 @@
 package ru.progwards.java1.lessons.arrays;
 
-import ru.progwards.java1.lessons.classes.lesson.figures.Circle;
+import ru.progwards.java1.lessons.classes.figures.Circle;
 
 public class CircleCompare {
     public static void main(String[] args) {
