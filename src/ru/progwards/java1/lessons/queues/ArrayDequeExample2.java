@@ -2,7 +2,7 @@ package ru.progwards.java1.lessons.queues;
 
 import java.util.ArrayDeque;
 
-public class ArrayDequeExample1 {
+public class ArrayDequeExample2 {
     public static void main(String[] args) {
         ArrayDeque<Integer> deque = new ArrayDeque<>();
 
@@ -11,11 +11,10 @@ public class ArrayDequeExample1 {
 
         System.out.println(deque);
 
-        while (!deque.isEmpty()) {
-            Integer element = deque.poll();
+        Integer element;
+        while ((element = deque.poll()) != null) {
             System.out.println("Убрали: " + element);
             System.out.println(deque);
         }
-
     }
 }
